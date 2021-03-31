@@ -1,0 +1,243 @@
+<div class="container">
+    <h1 class="top">LIST OF CANDIDATES</h1>
+    <div class="elementor-element elementor-element-986b44d Rectangle elementor-widget elementor-widget-heading"
+        data-id="986b44d" data-element_type="widget" data-widget_type="heading.default">
+        <div class="elementor-widget-container">
+            <h6 class="elementor-heading-title elementor-size-default">&nbsp;&nbsp;<br></h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h6 class="filter mt-5">Filter</h6>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Experience
+                        </a>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">Below 1 year experience</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">1 year experience</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">2 year experience</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">3 year experience</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">5+ year experience</span>
+                    </div>
+                </div>
+                <div class="dropdown" style="margin-left: 10px;">
+                    <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Multi Language
+                    </a>
+                    <div class="form-group">
+                        <label class="customcheck mt-4">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">English</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="customcheck mt-4">
+                            <input type="checkbox" checked="checked" name="products">
+                            <span class="checkmark"></span>
+                      </label>
+                      <span style="margin-left: 30px;">German</span>
+                    </div>
+                    <h6 style="text-align: center;">Show More</h6>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-xl-12 col-lg-11 col-md-11 col-sm-11 col-10">
+                    <div class="search-wrapper">
+                        <div class="search-box">
+                            <input class="text-box" placeholder="Search with skill,Job Title..">
+                            <button class="search" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mt-2">
+                        <div class="form-group">
+                            <label class="customcheck">
+                                <input type="checkbox" checked="checked" name="products">
+                                <span class="checkmark"></span>
+                          </label>
+                          <span style="margin-left: 30px;">Save all List</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mt-2">
+                        <div class="form-group">
+                            <label class="customcheck">
+                                <input type="checkbox" checked="checked" name="products">
+                                <span class="checkmark"></span>
+                          </label>
+                          <span style="margin-left: 30px;">Save To List</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mt-2">
+                        <div class="dropdown"><span>Sort by</span>
+                            <button class="btn dropdown-toggle shape" type="button" id="dropdownMenu2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Job Date
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">Another action</button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row table">
+                    <div class="col-sm-4">
+                        <p class="myP2">Total Job Result 123</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="myP">Past job 90 days</p>
+                    </div>
+                    <div class="col-sm-5">
+                        <p class="myP">Posted on 30 jobs by shework</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12" *ngFor="let user of urs">
+                    <div class="card mt-3">
+                        <!-- <div class="card-header">{{user?.id}}</div> -->
+                        <div class="card-body">
+                            <div class="row">
+                                <div _ngcontent-dxy-c14="" class="ribbon-wrapper-green">
+                                    <div _ngcontent-dxy-c14="" class="ribbon-green">
+                                        <div _ngcontent-dxy-c14="" class="pp">
+                                            <div _ngcontent-dxy-c10="" ribbon="" style="pointer-events: none">$ 12.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p _ngcontent-dxy-c14="" class="per-rate"><span _ngcontent-dxy-c10="" per-x=""
+                                        style="pointer-events: none">per hour</span></p>
+                                <div class="col-sm-4">
+                                    <img class="picture" src="/assets/img.jpg" alt="">
+                                    <app-display-star _ngcontent-dxy-c10="" class="card-star" ratehovered="2"
+                                        _nghost-dxy-c15="">
+                                        <div _ngcontent-dxy-c15="" class="figure">
+                                            <!---->
+                                            <fa _ngcontent-dxy-c15="" name="star" _nghost-dxy-c23=""
+                                                class="yellow ng-star-inserted"><i _ngcontent-dxy-c23=""
+                                                    aria-hidden="true" class="fa fa-star"></i></fa>
+                                            <fa _ngcontent-dxy-c15="" name="star" _nghost-dxy-c23=""
+                                                class="yellow ng-star-inserted"><i _ngcontent-dxy-c23=""
+                                                    aria-hidden="true" class="fa fa-star"></i></fa>
+                                            <fa _ngcontent-dxy-c15="" name="star" _nghost-dxy-c23=""
+                                                class="ng-star-inserted"><i _ngcontent-dxy-c23="" aria-hidden="true"
+                                                    class="fa fa-star"></i></fa>
+                                            <fa _ngcontent-dxy-c15="" name="star" _nghost-dxy-c23=""
+                                                class="ng-star-inserted"><i _ngcontent-dxy-c23="" aria-hidden="true"
+                                                    class="fa fa-star"></i></fa>
+                                            <fa _ngcontent-dxy-c15="" name="star" _nghost-dxy-c23=""
+                                                class="ng-star-inserted"><i _ngcontent-dxy-c23="" aria-hidden="true"
+                                                    class="fa fa-star"></i></fa>
+                                        </div>
+                                    </app-display-star>
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <h5 class="card-title" [routerLink]="['/candidate/' + user?.id]">{{user?.name}}</h5>
+                                    <p class="card-text"><img src="/assets/pin.png">{{user?.address}}</p>
+                                    <p class="card-text">Total Experience : {{user?.experience}}</p>
+                                    <p class="card-text">Skills : {{user?.Skills}}</p>
+                                    <p class="card-text"> Website : {{user?.website}}</p>
+                                    <p class="card-text"> {{user?.decription}}</p>
+                                    <hr>
+                                    
+                                </div>
+
+                                
+                            </div>
+                            <div class="row">
+
+                                <div class="col-sm-3">
+                                    <div _ngcontent-syj-c5="" foot="">
+                                    <div _ngcontent-syj-c5="" class="card-foot-wrapper"
+                                        style="pointer-events: none"><button _ngcontent-syj-c5=""
+                                            class="card-save">Save </button>
+                                        <!-- <div _ngcontent-syj-c5="" class="card-grow-5"></div><button
+                                            _ngcontent-syj-c5="" class="card-shortlist">Shortlist </button><button
+                                            _ngcontent-syj-c5="" class="card-schedule-call">Schedule Call</button> -->
+                                    </div>
+                                </div></div>
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-2">
+                                    <div _ngcontent-syj-c5="" foot="">
+                                        <div _ngcontent-syj-c5="" class="card-foot-wrapper"
+                                            style="pointer-events: none">
+                                                <div class="form-group">
+                                                    <label class="customcheck mt-4">
+                                                        <input type="checkbox" checked="checked" name="products">
+                                                        <span class="checkmark"></span>
+                                                  </label>
+                                                  <span style="margin-left: 30px;margin-top: -8px;">compare</span>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div _ngcontent-syj-c5="" foot="">
+                                        <div _ngcontent-syj-c5="" class="card-foot-wrapper"
+                                            style="pointer-events: none">
+                                            <div _ngcontent-syj-c5="" class="card-grow-5"></div><button
+                                                _ngcontent-syj-c5="" class="card-shortlist">Shortlist </button><button
+                                                _ngcontent-syj-c5="" class="card-schedule-call">Schedule Call</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>

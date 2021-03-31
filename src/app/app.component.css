@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.Rectangle {
+    background-image: linear-gradient(to left, #3e418c, #ef3079);
+    height: 3px;
+    margin: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: inherit;
+    color: black;
+
+}
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.bg-light {
+    box-shadow: 0 4px 6px #3333333d;
+}
+.navbar-light .navbar-nav .nav-link {  
+    color: black;
+}
