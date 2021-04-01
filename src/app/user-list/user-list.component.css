@@ -88,17 +88,6 @@ button#dropdownMenu2 {
     border: 1px #000 solid;
 }
 
-
-/* On mouse-over, add a grey background color */
-
-
-/*.customcheck:hover input ~ .checkmark {
-    background-color: #ccc;
-}*/
-
-
-/* When the checkbox is checked, add a blue background */
-
 .customcheck input:checked~.checkmark {
     background-image: linear-gradient(to left, #3e418c, #ef3079); 
     border-radius: 5px;
@@ -137,40 +126,6 @@ button#dropdownMenu2 {
 
 
 /* end  */
-/* #check {
-    opacity: 0;
-  }  
-  #check + label:before,
-  #check:checked + label:after {
-    content: "";
-    position: absolute;
-    left: -15px;
-    top: 0;
-  }
-  #check {
-    width: 28px;
-    margin-top: 12px;
-    height: 24px;
-    margin-left: 33px;
-    border-color: #fff;
-
-    /* background-image: linear-gradient(to left, #3e418c, #ef3079); */
-    /* border-radius: 9px; */
-
-/*   
-  #check:checked + label:after {
-    width: 19px;
-    height: 11px;
-    margin-left: 10px;
-    border-width: 0 0 4px 4px;
-    border-style: solid;
-    border-color: #000;
-    transform: rotate(303deg) translate(0px, 30px);
-  }
-  label {
-    float: right;
-    margin-right: 96px;
-} */ */
 
 /* For three column */
 .row.table {
@@ -286,25 +241,7 @@ img.picture {
     -moz-osx-font-smoothing: grayscale;
     color: #ffcf5c;
 }
-.card-body-wrapper[_ngcontent-dxy-c10] .card-body-left[_ngcontent-dxy-c10] .card-star[_ngcontent-dxy-c10] {
-    display: -webkit-box;
-    display: flex; 
-    -webkit-box-pack: center;
-    justify-content: center;
-    font-size: 25px;
-}
-.card-body-wrapper {
-    display: -webkit-box;
-    display: flex;
-}
-.card-body-wrapper[_ngcontent-dxy-c10] .card-body-left[_ngcontent-dxy-c10] .card-profile-picture-and-circle[_ngcontent-dxy-c10] .profile-picture[_ngcontent-dxy-c10] {
-    /* border-radius: 50%; */
-    width: 130px;
-    border: 1px solid gray;
-    /* height: 130px; */
-    -o-object-fit: cover;
-    object-fit: cover;
-}
+
 /* foot buttons */
 .card-foot-wrapper[_ngcontent-syj-c5] {
     display: -webkit-box;
@@ -328,4 +265,15 @@ img.picture {
     background: -webkit-gradient(linear,right top,left top,from(#2e3178),to(#d32a6a));
     background: linear-gradient(to left,#2e3178,#d32a6a);
     color: #fff;
+} 
+
+/* 
+media responsive things are here */
+@media screen and (max-width: 600px) {
+    
+    h1.top[_ngcontent-ggg-c17] {
+        margin-top: 22%;
+        font-size: 32px;
+        text-align: center;
+    }
 }
